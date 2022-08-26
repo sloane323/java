@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/9961AA455E8163910D);
+    background-repeat: no-repeat;
+    background-position: 500px 300px;
+    background-attachment: fixed;
+
+}
+
+
+
+h1 {
+    font-weight: bold ;
+
+}
+
+ul {
+ border: 5px solid gray;
+white-space: 30px;
+width: 250px;
+height: 100px;
+border-collapse: separate;
+  border-spacing: 15px;
+  padding-top: 30px;
+}
+
+li:hover {
+   background-color: pink;
+   color: white;
+   font-style: italic;
+}
+
+.ab {
+    color: green;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold ;
+}
+
+.ab:hover {
+    background-color: black;
+    color: white;
+}

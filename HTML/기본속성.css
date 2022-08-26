@@ -1,0 +1,23 @@
+h1 { color : yellow; }
+
+body { background-image: url(/20200511_wsj_1000009.jpg);
+background-repeat: no-repeat;
+background-position: 100px 200px;
+background-attachment: fixed;
+background-color: pink;}
+
+h2 {
+    text-decoration: overline gray 1px; 
+    text-shadow: 1px 1px 2px;
+    font-family: "HY견고딕 ";
+    font-size:50px
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
