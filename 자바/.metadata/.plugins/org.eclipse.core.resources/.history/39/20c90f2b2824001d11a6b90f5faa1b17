@@ -1,0 +1,26 @@
+package test_0809;
+
+import java.util.Scanner;
+import java.time.LocalDate;
+
+
+
+public class testa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		LocalDate now = LocalDate.now();
+		int year = now.getYear();
+		System.out.println(year+ 2333);
+				
+
+        
+
+		
+	}
+
+}
+
+

@@ -1,0 +1,14 @@
+package aug.Test;
+
+public class Print {
+
+	public static void main(String[] args) {
+		
+		
+		Student Student = new Student();
+		Student s2 = new Student ("흥부" ,1);
+		
+
+	}
+
+}

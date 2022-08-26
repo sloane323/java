@@ -1,0 +1,15 @@
+package test_0801;
+
+public class Whilebreak {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//반복문
+		//1) while, break
+		//	- 숫자 0이 들어올 때까지 입력받고 0이 들어오면 모든 숫자를 더한 수와 평균을 출력하세요.
+		
+		
+		
+	}
+
+}

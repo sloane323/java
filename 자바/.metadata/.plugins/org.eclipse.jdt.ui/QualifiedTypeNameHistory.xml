@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.desktop.ScreenSleepEvent"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="chap07_Object.Box"/>
+    <fullyQualifiedTypeName name="aug8.NumCheck"/>
+    <fullyQualifiedTypeName name="javax.swing.Box"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="chap07_02_getSet.AnimalCard"/>
+    <fullyQualifiedTypeName name="chap_08_inherit.Car"/>
+    <fullyQualifiedTypeName name="chap_08_inherit.SportsCar"/>
+    <fullyQualifiedTypeName name="Ex.People"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Dog"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Cat"/>
+    <fullyQualifiedTypeName name="chaper08_interface.carInterface"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>

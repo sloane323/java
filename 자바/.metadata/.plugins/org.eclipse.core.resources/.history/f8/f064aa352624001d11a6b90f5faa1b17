@@ -1,0 +1,19 @@
+package test_0809;
+
+public class testa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+
+
+		double a, b;
+		a = 8;
+		b = 2;
+		System.out.println((double)a /(double) b);
+		    
+		
+	}
+
+}

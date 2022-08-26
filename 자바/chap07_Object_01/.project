@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>chap07_Object_01</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Box.java</name>
+			<type>1</type>
+			<location>C:/Users/GGG/Desktop/chap07_Object/src/chap07_Object/Box.java</location>
+		</link>
+		<link>
+			<name>src/ObjectClass.java</name>
+			<type>1</type>
+			<location>C:/Users/GGG/Desktop/chap07_Object/src/chap07_Object/ObjectClass.java</location>
+		</link>
+		<link>
+			<name>src/StringEx.java</name>
+			<type>1</type>
+			<location>C:/Users/GGG/Desktop/chap07_Object/src/chap07_Object_StringEx/StringEx.java</location>
+		</link>
+		<link>
+			<name>src/StringTest.java</name>
+			<type>1</type>
+			<location>C:/Users/GGG/Desktop/chap07_Object/src/chap07_Object_String/StringTest.java</location>
+		</link>
+		<link>
+			<name>src/Student.java</name>
+			<type>1</type>
+			<location>C:/Users/GGG/Desktop/chap07_Object/src/chap07_Object/Student.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
