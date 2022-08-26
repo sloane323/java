@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <canvas id="mycanvas1" width="200" height="100"
+    style="border : 3px solid pink;">
+
+</canvas>
+
+<script>
+        let paper = document.getElementById("mycanvas1");
+        let context = paper.getContext("2d");
+        
+
+        let grd=context.createRadialGradient(75,50,5,1,60,100);
+        grd.addColorStop(0,"#127369");
+        grd.addColorStop(1,"#10403B");
+
+
+        context.fillStyle=grd;
+        context.fillRect(10,10,150,80);
+
+        context.font="30px Forte";
+        context.fillStyle = "white";
+        // 현재 컴퓨터에 설치 되어 있는 글꼴을 화면에 출력할수있다. 
+        context.fillText("convas", 40, 60);
+
+</script>
+
+
+
+
+</body>
+</html>

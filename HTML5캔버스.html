@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <canvas id="mycanvas" width="200" height="150"
+    style="border : 1px solid black;">
+</canvas>
+
+<script>
+    <!--자바스크립트의 오류확인을 브라우저에서 가능하다-->
+        <!-- 자바스크립트는 브라우저 환경에서 실행 되기 때문에 -->
+        <!-- html 파일에서 작성할때의 오류를 확인 할수 없다.-->
+
+    <!-- html에서 id 값을 통해 요소를 가지고 온다-->
+        let paper = document.getElementById("mycanvas");
+        let context = paper.getContext("2d");
+
+        <!--context를 통해서 그림을 그릴수 있다. -->
+        <!-- fillstyle 을 사용해 색 지정 -->
+
+        //네모그리기 
+        context.fillStyle ="#10403B";
+        context.fillRect(0, 0, 150, 75);
+
+        //선그리기 
+        context.strokeStyle ="#BFBFBF";
+        context.moveTo(0,0);
+        context.lineTo(200,100);
+        context.stroke();
+
+        //원그리기 
+        context.beginPath(); // Path를 먼저 시작하는것을 알린다 
+        context.arc(95,50,40,0,2*Math.PI); // 원의 path 지정 
+        context.stroke(); 
+
+        // 텍스트 그리기 
+        context.font="30px Arial";
+        context.fillText("Hello Holy",10,50);
+        context.strokeText("Hello Holy",10,50);
+
+        //그라이디언트 넣는법
+        //그라이디언트 생성
+
+        let grd=context.createRadialGradient(75,50,5,1,60,100);
+        grd.addColorStop(0,"pink");
+        grd.addColorStop(1,"purple");
+
+
+        //그라이언트 사용
+        context.fillStyle=grd;
+        context.fillRect(10,10,150,80);
+
+</script>
+
+</body>
+</html>
