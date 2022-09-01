@@ -1,0 +1,36 @@
+#mytable {
+    background-color: orange;
+    color: white;
+    border-bottom: 3px solid red;
+    width : 300px;
+    text-align: center;
+    padding: 1px,1px,1px,1px;
+}
+
+
+#mytable2 {
+    background-color: antiquewhite;
+    width: 300px;
+    border-radius: 10%;
+    border: 5px solid antiquewhite;
+    padding: 3px,3px,3px,3px;
+}
+
+
+.btn {
+    display:block;
+    width:200px; 
+    height:40px; 
+    line-height:40px; 
+    border:1px #3399dd solid;;
+    margin:15px auto; 
+    background-color:#66aaff;  
+    text-align:center; 
+    cursor: pointer;  
+    border-radius: 20px;
+
+}
+.btn:hover{color:#fff;}
+.hover1:hover{
+    box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+}

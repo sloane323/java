@@ -1,0 +1,49 @@
+header {
+    position: fixed ;
+    width:100%;
+    top:0%;
+    left:0;
+}
+
+
+
+nav {
+    width : 200px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-right: 1px solid gray;
+    position: fixed;
+    top: 50px; left : 0%; bottom: 40px;
+    height: 80%;
+}
+
+.menu {}
+.menu li {}
+
+.menu li a{
+    height: 30px;
+    line-height: 30px;
+    display: black;
+    padding: 0px 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.menu li a:hover { background-color: orange; color: white ;}
+
+
+
+footer {
+    position: fixed ;
+    width:100%;
+    top:0%;
+    left:0;
+
+}
+
+main {
+    position: fixed ;
+    width:80%;
+    top:0%;
+    left:0;
+}

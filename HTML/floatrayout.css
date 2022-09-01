@@ -1,0 +1,35 @@
+.layout {
+border: 3px solid pink;
+
+}
+
+
+.layout_header {
+border: 3px solid salmon;
+
+}
+
+
+.layout_nav {
+    border: 3px solid yellowgreen;
+    background-color: yellowgreen;
+    float: left;
+    width: 25%;
+
+
+}
+
+.layout_section {
+border: 3px solid skyblue;
+width: 74%;
+margin-left:26%;
+}
+
+.layout_footer {
+    border: 3px solid green;
+    clear:both;
+}
+
+.layout_header, .layout_footer {
+    text-align: center;
+}

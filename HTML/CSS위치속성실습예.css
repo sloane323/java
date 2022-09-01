@@ -1,0 +1,15 @@
+.m-box {
+    background-color: cornflowerblue;
+    width : 80%;
+    height: 100%;
+    padding: 10%;
+    margin-left: 20%;
+
+}
+
+.float-box {
+    float : left;
+    background-color: darkorange;
+    width: 20%;
+    height: 200px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자</title>
+</head>
+<link rel="stylesheet" href="./선택자.css">
+<body>
+
+
+
+    <body>
+        <h1>결합선택자</h1>
+        <h2>자손과 자식 선택자</h2>
+        <div class="m-parents">
+            <p>자식 : m-parents클래스 바로 아래있는 태그</p>
+            <div>
+                <p>자손 : m-parents클래스에 속한 태그</p>
+            </div>
+        </div>
+    
+        <h1>동위 선택자</h1>
+        <h2>일반 동위 선택자와 인접 동위 선택자</h2>
+        <div>
+            <p class="m-sibling">현재 요소</p>
+            <p>인접 동위 요소 : 동위 = 동등한 위치에 있는 요소</p>
+            <div>
+                <p>동위요소가 아닙</p>
+            </div>
+            <p>일반 동위 요소</p>
+        </div>
+    
+
+
+        <h2> 인접 동위 선택자 예시 </h2>
+        <ul>
+            <li>A</li>
+            <liclass ="last-li">b</li>
+            <li>C</li>
+        </ul>
+    
+    </body>
+    </html> 

@@ -1,0 +1,54 @@
+h2 {
+    background-color: red;
+
+    text-align: center;
+    border: 30px solid red;
+}
+
+.b {
+
+    background-color: white;
+    border: 3px solid black ;  /* 배경색 */
+    border-style: dotted;
+    border-radius : 0% 0% 2% 2%;
+}
+
+
+.a1 {
+    background-color: bisque;
+    border: 3px soild white;
+    margin : 20px;
+    padding: 20px;
+}
+
+.a2 {
+    background-color: bisque;
+    border: 3px soild white;
+    border: 3px soild white;
+    margin : 20px;
+    padding: 20px;
+}
+
+.a3 {
+    background-color: bisque;
+    border: 3px soild white;
+    border: 3px soild white;
+    margin : 20px;
+    padding: 20px;
+}
+
+.a4 {
+    background-color: bisque;
+    border: 3px soild white;
+    border: 3px soild white;
+    margin : 20px;
+    padding: 20px;
+}
+
+.a5 {
+    background-color: bisque;
+    border: 3px soild white;
+    border: 3px soild white;
+    margin : 20px;
+    padding: 20px;
+}
