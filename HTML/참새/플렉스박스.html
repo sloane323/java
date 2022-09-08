@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./플렉스박스.css">
+<body>
+    <h1>플렉스 박스</h1>
+    <div class="flex-container justify-between">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>플렉스 컨테이터에서 수평방향으로 정렬 : space-between</p>
+
+    <div class="flex-container justify-around">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>space-arount : 플렉스 아이템들이 마진이 있는것처럼 정렬</p>
+
+    <div class="flex-container justify-right">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>right를 이용하여 오른쪽에 정렬</p>
+
+    <div class="flex-container height align-center">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>align-item을 이용해서 center로 수직 방향 중앙 정렬</p>
+    <div class="flex-container height align-flex-end">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>flex-end 를 이용하여 수직방향 아래쪽에 출력</p>
+
+    <div class="flex-container height align-stretch">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>stretch를 이용하면 위쪽에 출력 </p>
+
+    <h1>플렉스 박스 여러줄 출력</h1>
+    <div class="flex-container flex-wrap justify-between">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <p>플랙스 컨테이너의 wrap 속성을 사용하여 줄바꿈을 할수있다</p>
+
+    <div class="flex-container height flex-wrap align-content">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <!-- 
+        ul(플랙스 컨테이너) li(플렉스 아이템) 
+        list를 가로로 1줄로 출력 > 공간이 부족하다면 여러 줄로 출력
+    -->
+    <ul class="f-container">
+        <li class="f-item">아이템</li>
+        <li class="f-item">아이템</li>
+        <li class="f-item">아이템</li>
+        <li class="f-item">아이템</li>
+    </ul>
+</body>
+</html>

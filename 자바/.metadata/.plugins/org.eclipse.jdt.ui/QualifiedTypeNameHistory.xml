@@ -17,7 +17,7 @@
     <fullyQualifiedTypeName name="chaper08_abstract.Dog"/>
     <fullyQualifiedTypeName name="chaper08_abstract.Cat"/>
     <fullyQualifiedTypeName name="chaper08_interface.carInterface"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

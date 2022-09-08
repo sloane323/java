@@ -2,7 +2,6 @@ INDEX VERSION 1.131+D:\리엑트 프론트엔드_김민지\자바\.metadata\.plugins\org.ecli
 1984047346.index
 3950544913.index
 760147230.index
-892415350.index
 3512569298.index
 2848450609.index
 4096717990.index

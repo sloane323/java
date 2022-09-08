@@ -1,0 +1,29 @@
+/*그리드레이아웃정렬*/
+div{
+    border: 1px solid brown ;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1.5fr);
+    height: 300px;
+    /*아이템의 크기가 도정되어 아이템이 나가지 않게 하기 위함 */
+    width: 500px;
+    min-width: 500px;
+    /*기본설정 stretch */
+    /*가로정렬*/
+    justify-items: end;
+    /*세로정렬*/
+   align-content: space-between;
+  }
+
+  .grid-item {
+    height: 200px;
+    /*기본설정 : stretch*/
+  }
+
+.add-align {
+    /*개별 세로 정렬 : 전체 align 이 stretch 일때 */ 
+    background-color: aqua;
+    align-self: center;
+    align-self : baseline
+}
