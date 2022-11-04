@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>동행</title>
+</head>
+<body>
+    <head> 
+    <div id ="hd-1st">
+        <div id = "special-hd">    <ul class="menu-hd"> <li><a id = "u-hd">특별한 </a></li> <li><a>동행</a></li></ul> </div>
+        <div id = "icon-hd">
+            <a style="text-decoration:none" href=""> <img src ="./alr.svg" width="40" height="40"> </a>
+            <a style="text-decoration:none" href=""> <img src ="./meu.svg" width="40" height="40"> </a>
+        </div>
+    </div>
+<br>
+        <div id = hd-2st>
+            <a id="hom-hd" style="text-decoration:none" onclick="
+            fetchPage('./01homec.html')"> <img src ="./home.svg" width="50" height="50"> </a>
+            <a id="inf-hd"style="text-decoration:none" onclick="
+            fetchPage('./02inf.html')"> <img src ="./inf.svg" width="50" height="50"> </a>
+            <a id="csi-hd"style="text-decoration:none" onclick="
+            fetchPage('./03csi.html')"> <img src ="./csi.svg" width="50" height="50"> </a>
+            <a id="not-hd"style="text-decoration:none" onclick="
+            fetchPage('./04not.html')"> <img src ="./not.svg" width="50" height="50"> </a>
+            <a id="bok-hd"style="text-decoration:none" onclick="
+            fetchPage('./05bok.html')"> <img src ="./bok.svg" width="50" height="50"> </a>
+            <a id="rev-hd"style="text-decoration:none" onclick="
+            fetchPage('./06rev.html')"> <img src ="./rev.svg" width="50" height="50"> </a>
+        </div>
+    </head>
+
+    <article>
+
+    </article>
+
+    <footer>
+        <div class = "wrap">
+        <div class="copy"> &copy; Copyright 2022. Slone Kim. All right reserved.<br>
+        본 이벤트는  <span>부산관광공사X사회공헌활동</span>   과 함께 했습니다.  </div>
+        <div class="snsicon"> 
+          <a style="text-decoration:none" href=""> <img src ="https://cdn-icons-png.flaticon.com/512/2111/2111338.png" width="20" height="20"> 페이스북</a>
+          <a style="text-decoration:none" href="">  <img src ="https://cdn-icons-png.flaticon.com/512/2111/2111421.png" width="20" height="20"> 인스타그램</a>
+          <a style="text-decoration:none" href="">  <img src ="https://cdn-icons-png.flaticon.com/512/1060/1060370.png" width="20" height="25">이메일 </a></div>
+      </div>
+      </footer>
+
+      <script>
+        function fetchPage(name){
+          fetch(name).then(function(response){
+            response.text().then(function(text){
+              document.querySelector('article').innerHTML = text;
+            })
+          });
+        }
+        </script>
+
+</body>
+</html>

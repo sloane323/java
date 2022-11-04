@@ -1,0 +1,45 @@
+.body {
+    background-color: green;
+    width: 74%;
+    margin-right:26%;
+}
+
+ul {
+    padding: 0;
+    padding: 10px;
+    border: 30px solid yellow;   
+  }
+  li {
+    background-color: green;
+    padding: 8px;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+.popup {
+    border: 3px solid yellowgreen;
+position: fixed;
+top: 3px; right: 3px;
+width: 200px;
+height: 200px;
+background-color: pink;
+padding: 10px;
+}
+
+p.top {
+    margin: 10%;
+    background-color: aqua;
+}
+
+p.top:hover {
+background-color: blue;
+} 
+
+p.bottom {
+    margin: 10%;
+background-color: blue;
+}
+
+p.bottom:hover {
+    background-color: aqua;
+    } 
